@@ -1,17 +1,17 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Scheduling Services",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#e00700",
+    "light": "#C5DBF7",
+    "dark": "#00325D"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "TimeTable Visio",
         "groups": [
           {
             "group": "Getting started",
@@ -48,7 +48,41 @@
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Scheduling Guide",
+        "groups": [
+          {
+            "group": "Section 1: Getting Started",
+            "pages": [
+              "scheduling-guide/README",
+              "scheduling-guide/what-this-guide-will-and-wont-cover",
+              "scheduling-guide/scheduling-101",
+              "scheduling-guide/developing-a-baseline-schedule",
+              "scheduling-guide/activity-naming-conventions",
+              "scheduling-guide/training-outline",
+              "scheduling-guide/overview"
+            ]
+          },
+          {
+            "group": "Section 2: CPM",
+            "pages": [
+              "scheduling-guide/the-critical-path-method/README",
+              "scheduling-guide/the-critical-path-method/2.1-the-value-of-cpm",
+              "scheduling-guide/the-critical-path-method/2.2-cpm-crash-course",
+              "scheduling-guide/the-critical-path-method/2.3-cpm-step-by-step"
+            ]
+          },
+          {
+            "group": "Section 3: Schedule Data",
+            "pages": [
+              "scheduling-guide/schedule-data/README",
+              "scheduling-guide/schedule-data/3.1-lead-times-and-production-rates",
+              "scheduling-guide/schedule-data/3.2-productivity-concerns"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "TimeTable FigJam",
         "groups": [
           {
             "group": "API documentation",
@@ -114,9 +148,25 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://robinsmorton.com",
+      "instagram": "https://www.instagram.com/robinsmorton/",
+      "facebook": "https://www.facebook.com/robinsmorton/",
+      "youtube": "https://www.youtube.com/user/RobinsMorton",
+      "linkedin": "https://www.linkedin.com/company/robins-&-morton/"
+    }
+  },
+  "fonts": {
+    "heading": {
+      "family": "nb_international_pro",
+      "source": "fonts/nb_international_pro_bold-webfont.woff2",
+      "format": "woff2",
+      "weight": 700
+    },
+    "body": {
+      "family": "nb_international_pro",
+      "source": "fonts/nb_international_pro_regular-webfont.woff2",
+      "format": "woff2",
+      "weight": 400
     }
   }
 }
