@@ -1,10 +1,8 @@
 ---
 title: "Developing a baseline schedule"
-description: "How t"
-icon: "recycle"
+icon: "Baseline"
 ---
 
-# Developing a Baseline Schedule
 
 A construction project requires careful planning and execution. The Critical Path Method (CPM) baseline schedule lists all necessary tasks and ensures the project is completed on time, within budget, and to quality standards. However, a high-quality schedule is more than just correct durations and structure; it’s a reactive, dynamic document that shows impacts and aligns with the project’s intended build.
 

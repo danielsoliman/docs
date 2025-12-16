@@ -1,5 +1,8 @@
 ---
+title: "Introduction"
 description: 'Section 3: Useful Information'
+icon: arrow-right-to-arc
+iconType: duotone
 ---
 
 # Schedule Data

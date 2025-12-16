@@ -1,0 +1,9 @@
+# Exclude draft documents
+drafts/
+*.draft.mdx
+
+# Exclude internal documentation anywhere
+**/internal/**
+
+# Exclude specific files
+private-notes.md

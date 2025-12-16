@@ -8,10 +8,17 @@
     "dark": "#00325D"
   },
   "favicon": "/favicon.svg",
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "background": {
+    "decoration": "grid"
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "TimeTable Visio",
+        "tab": "TimeTable",
+        "icon": "chart-gantt",
         "groups": [
           {
             "group": "Getting started",
@@ -49,6 +56,7 @@
       },
       {
         "tab": "Scheduling Guide",
+        "icon": "book",
         "groups": [
           {
             "group": "Section 1: Getting Started",
@@ -56,7 +64,7 @@
               "scheduling-guide/README",
               "scheduling-guide/what-this-guide-will-and-wont-cover",
               "scheduling-guide/scheduling-101",
-              "scheduling-guide/developing-a-baseline-schedule",
+              "scheduling-guide/baselines",
               "scheduling-guide/activity-naming-conventions",
               "scheduling-guide/training-outline",
               "scheduling-guide/overview"
@@ -74,7 +82,7 @@
           {
             "group": "Section 3: Schedule Data",
             "pages": [
-              "scheduling-guide/schedule-data/README",
+              "scheduling-guide/schedule-data/introduction",
               "scheduling-guide/schedule-data/3.1-lead-times-and-production-rates",
               "scheduling-guide/schedule-data/3.2-productivity-concerns"
             ]
@@ -125,7 +133,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:dfahmi@robinsmorton.com"
       }
     ],
     "primary": {
